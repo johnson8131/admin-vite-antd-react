@@ -37,7 +37,7 @@
     "prebuild": "rimraf dist",
     "deploy": "gh-pages -d dist",
     "commitlint": "commitlint --from=master",
-    "lint:fix": "eslint --cache --ext .js,.jsx,.ts,.tsx --no-error-on-unmatched-pattern --quiet --fix ./src",
+    "lint:fix": "eslint --cache --ext .js,.jsx,.ts,.tsx --no-error-on-unmatched-pattern --quiet --fix --ext ./src",
     "lint:style": "stylelint --fix \"src/**/*.less\" --syntax less",
     "clean:cache": "rimraf node_modules/.cache/ && rimraf node_modules/.vite",
     "stylelint-check": "stylelint-config-prettier-check",

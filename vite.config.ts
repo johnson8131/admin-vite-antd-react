@@ -36,6 +36,8 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
         { find: /^~/, replacement: path.resolve(__dirname, './') },
         { find: '@', replacement: path.resolve(__dirname, 'src') },
         { find: '@c', replacement: path.resolve(__dirname, 'config') },
+        { find: '@scripts', replacement: path.resolve(__dirname, 'src/scripts') },
+        { find: '@store', replacement: path.resolve(__dirname, 'src/store') },
       ],
     },
     server: {

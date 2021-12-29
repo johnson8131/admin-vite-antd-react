@@ -33,6 +33,13 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
+    'no-unused-vars': 'off',
+    'no-undef': 'off',
+    'no-debugger': 'off',
+    'no-console': 'off',
+    'no-empty': 'off',
+    'no-case-declarations': 'off',
+    'react/jsx-key': 'off',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {

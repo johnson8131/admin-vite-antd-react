@@ -14,6 +14,7 @@ const Authority: React.FC = ({ children }) => {
   // if (!user?.token) {
   //   history.push('/user/login');
   // }
+  console.log('authtttttttttt', children);
 
   return <>{children}</>;
 };

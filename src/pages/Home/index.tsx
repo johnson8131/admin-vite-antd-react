@@ -21,7 +21,7 @@ const Home: React.FC = () => {
   const list = useStore((state) => state.list); // list 该写法可检测到 state 变化
   const editItem = useStore((state) => state.editItem);
   const { getList, removeList, editList, addList, setEditItem } = useStore.getState();
-
+  const [count, setCount] = useState(0);
   const [visible, setVisible] = useState<boolean>(false);
 
   useEffect(() => {
@@ -103,6 +103,15 @@ const Home: React.FC = () => {
   return (
     <div>
       <h2>Home</h2>
+      <Button
+        onClick={() => {
+          let i = count + 1;
+          console.log('ggg');
+          setCount(i);
+        }}>
+        fffff
+      </Button>{' '}
+      count:{count}
       <Space>
         {/* <Button type="primary" onClick={() => setVisible(true)}>
           新增

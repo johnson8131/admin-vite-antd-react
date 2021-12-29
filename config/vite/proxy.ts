@@ -27,6 +27,12 @@ export function createProxy() {
       // https is require secure=false
       ...(httpsRE.test(VITE_PROXY_HTTP) ? { secure: false } : {}),
     },
+    '/foo': 'http://localhost:4567/foo',
+    '^/fallback/.*': {
+      target: 'http://jsonplaceholder.typicode.com',
+      changeOrigin: true,
+      rewrite: (path) => path.replace(/^\/fallback/, ''), // 正则表达式写法
+    },
   };
   return ProxyList;
 }
