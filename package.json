@@ -2,16 +2,16 @@
   "name": "vite-react-ts",
   "version": "0.0.3",
   "description": "a Vite2 + Typescript + React + Antd + Less + Eslint + Prettier template",
-  "homepage": "https://github.com/JS-banana/vite-react-ts",
+  "homepage": "https://github.com/johnson8131/admin-vite-antd-react",
   "repository": {
     "type": "git",
-    "url": "git@github.com:JS-banana/vite-react-ts.git"
+    "url": "git@github.com:johnson8131/admin-vite-antd-react.git"
   },
   "author": {
-    "name": "JS-banana",
-    "email": "sss213018@163.com",
-    "url": "https://ssscode.com",
-    "github": "https://github.com/JS-banana"
+    "name": "johnson8131",
+    "email": "sss@ss.com",
+    "url": "https://sss.com",
+    "github": "https://github.com/johnson8131"
   },
   "keywords": [
     "vite",

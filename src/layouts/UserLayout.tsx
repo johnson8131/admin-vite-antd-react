@@ -13,7 +13,7 @@ const UserLayout: React.FC<{ route: IRouteConfig }> = ({ route }) => {
       <Content>{renderRoutes(route.routes)}</Content>
       <Footer>
         <Text>
-          Vite2.0 + React + Antd <Text type="secondary">@JS-banana 2021</Text>
+          Vite2.0 + React + Antd <Text type="secondary">@johnson8131 2022</Text>
         </Text>
       </Footer>
     </Layout>

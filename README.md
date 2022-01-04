@@ -6,13 +6,11 @@
 
 - **使用 Gitpod 体验在线开发环境**
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JS-banana/vite-react-ts/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/johnson8131/admin-vite-antd-react/)
 
 - **克隆到本地**
 
 ```sh
-# clone
-git clone https://github.com/JS-banana/vite-react-ts.git
 
 # install
 yarn install
@@ -76,10 +74,8 @@ yarn dev
 
 ## 版本
 
-- v0.0.1：2021-07-23更新
-- v0.0.2：2021-08-12更新
+- v0.0.1：
   - `.stylelint`配置调整，`pre-commit`调整为`.husky`及其他细节优化
-- v0.0.3：2021-08-15 至 2021-09-01
   - 解决antd按需加载在开发环境下的自定义样式被覆盖问题
   - 重构路由及layout模块，优化路由页面
   - 增加mock请求数据，整理目录结构
